@@ -8,7 +8,7 @@ Getting the data ready
 
 - Reading the dataset we have (features_3_sec.csv)
 - Splitting the dataset into training and testing datasets. We will eventually
-- 
+  
 have (X_train, X_test, y_train, y_test). We will then feed the model the
 (X_train and y_train) datasets to train with. When the model is ready, we
 input the (X_test) and compare the results with the (y_test) to see how
@@ -32,10 +32,11 @@ highest index.
 Comparison of predict and real genre:
 
 - ![image](https://github.com/mohamedmodar/music-genre-classification/assets/120323472/e16ca163-7e7b-4cd7-a4db-e3405ab159fb)
-- 
-- - Confusion matrix:
-  - 
-![image](https://github.com/mohamedmodar/music-genre-classification/assets/120323472/1679f907-f3e0-4899-9872-08e06541de8d)
+  
+-  Confusion matrix:
+
+    ![image](https://github.com/mohamedmodar/music-genre-classification/assets/120323472/63e2187a-d97d-4a27-b86f-9efd040b013d)
+
 
 KNN model
 
@@ -47,11 +48,11 @@ accuracy we can reach.
 - At each fold, we calculated the accuracy of how much the model dealt
 with the test data.
 - The accuracy we had was up to 88%.
-- 
+ 
 - Comparison of predict and real genre:
 
 - ![image](https://github.com/mohamedmodar/music-genre-classification/assets/120323472/7d60b510-9229-4f4d-accd-709d0b5c9ade)
-- 
+  
 - Confusion matrix:
 
 ![image](https://github.com/mohamedmodar/music-genre-classification/assets/120323472/451de903-2c7d-4715-9d88-cbc1198ec27a)
@@ -66,10 +67,10 @@ with the test data.
 - We also had an accuracy up to 88%.
 
 - Comparison of predict and real genre:
-- 
+  
 - ![image](https://github.com/mohamedmodar/music-genre-classification/assets/120323472/2004e073-f63a-4b02-bc33-a100551efc22)
 
-- - Confusion matrix:
+-  Confusion matrix:
 
 
 - ![image](https://github.com/mohamedmodar/music-genre-classification/assets/120323472/3ee6ba72-e680-4d2f-9eea-7e516ea72661)
